@@ -1,7 +1,7 @@
 
 # GMAPPS
 
-Google Mapp Redirect - Google chrome extension which creates 'Maps' tab in search page, which creates link redirecting to google maps with searched phrase, and shows the location on map.
+Google Maps Redirect is a Chrome extension that adds a Maps tab between All and Images in supported Google search results. Click it to search the current phrase in Google Maps. The popup lets you choose automatic, Polish, or English labels.
 
 ## Installation
 
@@ -17,11 +17,7 @@ chrome://extensions/
 ```
 and click the: 
 - "Load unpacked extension..." 
-button. Navigate to and select this directory. You should then see an: 
-
-- "Improved new tab page" 
-
-extension and see the app when you open a new tab.
+button. Navigate to and select this directory. The extension adds a Maps tab to supported Google search results.
     
 ## Authors
 

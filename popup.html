@@ -1,31 +1,159 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GMAPPS</title>
   <style>
-    .frame {
-      padding: 20px;
-      width: 200px;
-      text-align: left;
-  }
-  .title {
-    text-align: center;
-}
-    .text {
-      font-size: 12px;
+    :root {
+      color-scheme: light dark;
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+      --surface: #fff;
+      --surface-soft: #f5f8fc;
+      --text: #17212f;
+      --muted: #66758a;
+      --accent: #2563eb;
+      --line: #e4eaf2;
+      --select-bg: #fff;
     }
-</style>
-<script src="./service_worker.js" defer></script>
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --surface: #1c2430;
+        --surface-soft: #252f3d;
+        --text: #edf3fb;
+        --muted: #a9b7c9;
+        --accent: #8ab4ff;
+        --line: #354252;
+        --select-bg: #202a37;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      width: 340px;
+      margin: 0;
+      background: var(--surface);
+      color: var(--text);
+    }
+
+    .panel { padding: 20px; }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      margin-bottom: 18px;
+    }
+
+    .brand-icon {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+      flex: none;
+    }
+
+    h1 {
+      margin: 0 0 3px;
+      font-size: 17px;
+      line-height: 1.25;
+      letter-spacing: .01em;
+    }
+
+    .tagline {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .intro {
+      margin: 0 0 18px;
+      padding: 13px 14px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--surface-soft);
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .setting-label {
+      display: block;
+      margin: 0 0 7px;
+      font-size: 12px;
+      font-weight: 650;
+    }
+
+    select {
+      width: 100%;
+      min-height: 40px;
+      padding: 0 12px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      background: var(--select-bg);
+      color: var(--text);
+      font: inherit;
+      font-size: 13px;
+      outline: none;
+    }
+
+    select:focus-visible, a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 18px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
+
+    .footer a {
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .footer a:hover { text-decoration: underline; }
+    .version { color: var(--muted); font-size: 11px; }
+  </style>
 </head>
 <body>
-    <div class="frame">
-      <h3 class="title">GMAPPS</h3>
-      <span class="text">Simple google chrome extension that adds maps to you search page with redirect to google maps with your search query. If you like my work, there is a link below for support!</span>
-      <div style="margin-top:10px">
-        <a href="https://buymeacoffee.com/kfheigelj" target="_blank"><p>&#9749; Buy Me a Coffee!</p></a>
+  <main class="panel">
+    <header class="brand">
+      <img class="brand-icon" src="128.png" alt="" aria-hidden="true">
+      <div>
+        <h1>GMAPPS</h1>
+        <p class="tagline" data-i18n="tagline">Google Maps shortcut</p>
       </div>
-      <div style="margin-top:10px">
-        <a href="https://github.com/kfheigel/gmapps" target="_blank"><p>&#128187; Github page</p></a>
-      </div>
-    </div>
+    </header>
+
+    <p class="intro" data-i18n="description">Search the current phrase in Google Maps directly from Google results.</p>
+
+    <section aria-labelledby="language-label">
+      <label class="setting-label" id="language-label" for="language" data-i18n="languageLabel">Language</label>
+      <select id="language">
+        <option value="auto" data-i18n="autoOption">Automatic (browser language)</option>
+        <option value="pl" data-i18n="polishOption">Polski</option>
+        <option value="en" data-i18n="englishOption">English</option>
+      </select>
+    </section>
+
+    <footer class="footer">
+      <a href="https://buymeacoffee.com/kfheigeld" target="_blank" rel="noopener noreferrer" data-i18n="supportLink">Support the project</a>
+      <a href="https://github.com/kfheigel/gmapps" target="_blank" rel="noopener noreferrer" data-i18n="githubLink">GitHub</a>
+      <span class="version" id="version"></span>
+    </footer>
+  </main>
+  <script src="popup.js" defer></script>
 </body>
 </html>
