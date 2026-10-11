@@ -9,6 +9,10 @@
       englishOption: "English",
       supportLink: "Support the project",
       githubLink: "GitHub",
+      otherExtensionsTitle: "More of my extensions",
+      otherExtensionsDescription: "Discover my other browser tools.",
+      timeSpeakDescription: "Speaking time tracker for Google Meet.",
+      chromeStoreLink: "Chrome Web Store ↗",
     },
     pl: {
       tagline: "Skrót do Map Google",
@@ -19,6 +23,10 @@
       englishOption: "English",
       supportLink: "Wesprzyj projekt",
       githubLink: "GitHub",
+      otherExtensionsTitle: "Inne moje wtyczki",
+      otherExtensionsDescription: "Poznaj także moje pozostałe narzędzia do przeglądarki.",
+      timeSpeakDescription: "Mierz czas wypowiedzi podczas spotkań w Google Meet.",
+      chromeStoreLink: "Chrome Web Store ↗",
     },
   };
 

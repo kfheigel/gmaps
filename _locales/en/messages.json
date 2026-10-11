@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "GMAPS - Google Maps Redirect",
+    "description": "Extension name shown in Chrome and the Chrome Web Store."
+  },
+  "extensionDescription": {
+    "message": "Adds a Google Maps shortcut to supported Google Search results.",
+    "description": "Short extension description shown in Chrome and the Chrome Web Store."
+  }
+}

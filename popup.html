@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GMAPPS</title>
+  <title>GMAPS</title>
   <style>
     :root {
       color-scheme: light dark;
@@ -125,6 +125,29 @@
 
     .footer a:hover { text-decoration: underline; }
     .version { color: var(--muted); font-size: 11px; }
+
+    .other-extensions { margin-top: 18px; }
+    .other-extensions-heading { margin: 0 0 9px; }
+    .other-extensions-heading h2 { margin: 0 0 3px; font-size: 13px; line-height: 1.3; }
+    .other-extensions-heading p { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.4; }
+    .extension-card {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 11px;
+      background: var(--surface-soft);
+      color: var(--text);
+      text-decoration: none;
+    }
+    .extension-card:hover { border-color: var(--accent); }
+    .extension-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .extension-card img { width: 38px; height: 38px; flex: none; object-fit: contain; }
+    .extension-card-copy { min-width: 0; flex: 1; }
+    .extension-card-copy strong { display: block; margin-bottom: 3px; font-size: 12px; line-height: 1.3; }
+    .extension-card-copy span { display: block; color: var(--muted); font-size: 10px; line-height: 1.35; }
+    .extension-card-action { color: var(--accent); font-size: 10px; font-weight: 650; white-space: nowrap; }
   </style>
 </head>
 <body>
@@ -132,7 +155,7 @@
     <header class="brand">
       <img class="brand-icon" src="128.png" alt="" aria-hidden="true">
       <div>
-        <h1>GMAPPS</h1>
+        <h1>GMAPS</h1>
         <p class="tagline" data-i18n="tagline">Google Maps shortcut</p>
       </div>
     </header>
@@ -148,9 +171,24 @@
       </select>
     </section>
 
+    <section class="other-extensions" aria-labelledby="other-extensions-title">
+      <div class="other-extensions-heading">
+        <h2 id="other-extensions-title" data-i18n="otherExtensionsTitle">More of my extensions</h2>
+        <p data-i18n="otherExtensionsDescription">Discover my other browser tools.</p>
+      </div>
+      <a class="extension-card" href="https://chromewebstore.google.com/detail/timespeak-%E2%80%93-speaking-time/ldccnfkgjhgjdcmahlfpgiohoihglckc?authuser=0&amp;hl=pl" target="_blank" rel="noopener noreferrer">
+        <img src="timespeak-icon.png" alt="" aria-hidden="true">
+        <span class="extension-card-copy">
+          <strong>TimeSpeak</strong>
+          <span data-i18n="timeSpeakDescription">Speaking time tracker for Google Meet.</span>
+        </span>
+        <span class="extension-card-action" data-i18n="chromeStoreLink">Chrome Web Store ↗</span>
+      </a>
+    </section>
+
     <footer class="footer">
       <a href="https://buymeacoffee.com/kfheigeld" target="_blank" rel="noopener noreferrer" data-i18n="supportLink">Support the project</a>
-      <a href="https://github.com/kfheigel/gmapps" target="_blank" rel="noopener noreferrer" data-i18n="githubLink">GitHub</a>
+      <a href="https://github.com/kfheigel/gmaps" target="_blank" rel="noopener noreferrer" data-i18n="githubLink">GitHub</a>
       <span class="version" id="version"></span>
     </footer>
   </main>

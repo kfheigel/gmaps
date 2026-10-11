@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "GMAPS - Google Maps Redirect",
+    "description": "在 Chrome 和 Chrome 网上应用店中显示的扩展程序名称。"
+  },
+  "extensionDescription": {
+    "message": "在受支持的 Google 搜索结果中添加 Google 地图快捷入口。",
+    "description": "在 Chrome 和 Chrome 网上应用店中显示的扩展程序简介。"
+  }
+}

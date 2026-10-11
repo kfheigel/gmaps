@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "GMAPS - Google Maps Redirect",
+    "description": "Nazwa rozszerzenia wyświetlana w Chrome i Chrome Web Store."
+  },
+  "extensionDescription": {
+    "message": "Dodaje skrót do Map Google w obsługiwanych wynikach wyszukiwania Google.",
+    "description": "Krótki opis rozszerzenia wyświetlany w Chrome i Chrome Web Store."
+  }
+}

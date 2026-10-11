@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "GMAPS - Google Maps Redirect",
+    "description": "Chrome と Chrome ウェブストアに表示される拡張機能名。"
+  },
+  "extensionDescription": {
+    "message": "対応する Google 検索結果に Google マップへのショートカットを追加します。",
+    "description": "Chrome と Chrome ウェブストアに表示される拡張機能の概要。"
+  }
+}
