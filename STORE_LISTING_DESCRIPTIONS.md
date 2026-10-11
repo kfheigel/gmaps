@@ -13,11 +13,13 @@ Open your Google Search query in Google Maps with a dedicated Maps tab.
 **Detailed description**
 
 ```text
-GMAPS adds a Maps tab to supported Google Search results. Select it to open your current search query directly in Google Maps.
+This extension simply adds the “Maps” tab back to Google Search results for users in Europe.
 
-• Open Google Maps from Google Search with one click
-• Use the search query you are currently viewing
-• Choose automatic browser-language selection or any of seven interface languages in the extension popup
+Based on the query in the Google search bar, the “Maps” tab opens Google Maps with the search phrase and displays matching places.
+
+The extension does not collect user data, helping protect users’ privacy and security.
+
+For more information, please get in touch.
 ```
 
 ## Polski (`pl`)
@@ -31,11 +33,13 @@ Otwórz wyszukiwaną frazę w Mapach Google za pomocą karty Mapy.
 **Opis szczegółowy**
 
 ```text
-GMAPS dodaje kartę Mapy do obsługiwanych wyników wyszukiwania Google. Kliknij ją, aby otworzyć bieżącą wyszukiwaną frazę bezpośrednio w Mapach Google.
+To rozszerzenie po prostu przywraca kartę „Mapy” na stronie wyników wyszukiwania Google dla użytkowników w Europie.
 
-• Otwieraj Mapy Google z wyszukiwarki Google jednym kliknięciem
-• Korzystaj z aktualnie wyszukiwanej frazy
-• Wybierz automatyczne dopasowanie do języka przeglądarki lub jeden z siedmiu języków interfejsu
+Na podstawie zapytania wpisanego w polu wyszukiwania Google karta „Mapy” otwiera Mapy Google z wyszukiwaną frazą i wyświetla pasujące miejsca.
+
+Rozszerzenie nie zbiera danych użytkownika, pomagając chronić jego prywatność i bezpieczeństwo.
+
+Aby uzyskać więcej informacji, skontaktuj się z autorem rozszerzenia.
 ```
 
 ## Deutsch (`de`)
@@ -49,11 +53,13 @@ GMAPS dodaje kartę Mapy do obsługiwanych wyników wyszukiwania Google. Kliknij
 **Detaillierte Beschreibung**
 
 ```text
-GMAPS ergänzt unterstützte Google-Suchergebnisse um einen Maps-Tab. Wähle ihn aus, um deine aktuelle Suchanfrage direkt in Google Maps zu öffnen.
+Diese Erweiterung fügt den Tab „Maps“ für Nutzer in Europa wieder zu den Google-Suchergebnissen hinzu.
 
-• Google Maps mit einem Klick aus der Google-Suche öffnen
-• Die aktuell angezeigte Suchanfrage verwenden
-• Im Erweiterungs-Popup die automatische Browsersprache oder eine von sieben Sprachen auswählen
+Der Tab „Maps“ verwendet die Suchanfrage aus dem Google-Suchfeld, öffnet damit Google Maps und zeigt passende Orte an.
+
+Die Erweiterung erhebt keine Nutzerdaten und trägt so zum Schutz der Privatsphäre und Sicherheit bei.
+
+Für weitere Informationen wenden Sie sich bitte an den Entwickler.
 ```
 
 ## Español (`es`)
@@ -67,11 +73,13 @@ Abre tu búsqueda de Google en Google Maps desde una pestaña dedicada.
 **Descripción detallada**
 
 ```text
-GMAPS añade una pestaña de Maps a los resultados compatibles de Google. Selecciónala para abrir tu búsqueda actual directamente en Google Maps.
+Esta extensión simplemente vuelve a añadir la pestaña «Maps» a los resultados de búsqueda de Google para los usuarios de Europa.
 
-• Abre Google Maps desde la búsqueda de Google con un clic
-• Usa la búsqueda que tienes abierta
-• Elige el idioma del navegador automáticamente o uno de los siete idiomas de la interfaz
+La pestaña «Maps» usa la consulta de la barra de búsqueda de Google para abrir Google Maps y mostrar lugares relacionados.
+
+La extensión no recopila datos de los usuarios, lo que ayuda a proteger su privacidad y seguridad.
+
+Para obtener más información, ponte en contacto con el desarrollador.
 ```
 
 ## Français (`fr`)
@@ -85,11 +93,13 @@ Ouvrez votre recherche Google dans Google Maps grâce à un onglet dédié.
 **Description détaillée**
 
 ```text
-GMAPS ajoute un onglet Maps aux résultats Google compatibles. Sélectionnez-le pour ouvrir directement votre recherche actuelle dans Google Maps.
+Cette extension rétablit simplement l’onglet « Maps » dans les résultats de recherche Google pour les utilisateurs en Europe.
 
-• Ouvrez Google Maps depuis la recherche Google en un clic
-• Utilisez la recherche affichée à l’écran
-• Choisissez automatiquement la langue du navigateur ou l’une des sept langues de l’interface
+L’onglet « Maps » reprend la requête saisie dans la barre de recherche Google pour ouvrir Google Maps et afficher les lieux correspondants.
+
+L’extension ne collecte aucune donnée utilisateur, ce qui contribue à protéger la vie privée et la sécurité.
+
+Pour en savoir plus, veuillez contacter le développeur.
 ```
 
 ## 日本語 (`ja`)
@@ -103,11 +113,13 @@ GMAPS ajoute un onglet Maps aux résultats Google compatibles. Sélectionnez-le 
 **詳細な説明**
 
 ```text
-GMAPS は、対応する Google 検索結果に「マップ」タブを追加します。タブを選択すると、現在の検索内容を Google マップで直接開きます。
+この拡張機能は、ヨーロッパのユーザー向けに Google 検索結果へ「Maps」タブを追加します。
 
-• Google 検索からワンクリックで Google マップを開く
-• 表示中の検索内容をそのまま使用
-• ポップアップでブラウザー言語に合わせるか、7つの表示言語から選択
+Google の検索ボックスに入力した検索語句を使って「Maps」タブから Google マップを開き、該当する場所を表示します。
+
+この拡張機能はユーザーデータを収集せず、プライバシーとセキュリティの保護に役立ちます。
+
+詳しくは、開発者までお問い合わせください。
 ```
 
 ## 简体中文 (`zh_CN`)
@@ -121,9 +133,11 @@ GMAPS は、対応する Google 検索結果に「マップ」タブを追加し
 **详细说明**
 
 ```text
-GMAPS 会在受支持的 Google 搜索结果中添加“地图”标签。点击该标签，即可在 Google 地图中直接打开当前搜索内容。
+此扩展程序为欧洲用户在 Google 搜索结果中重新添加“Maps”标签。
 
-• 一键从 Google 搜索打开 Google 地图
-• 使用当前正在查看的搜索内容
-• 在扩展程序弹出窗口中选择自动跟随浏览器语言，或从七种界面语言中选择
+“Maps”标签会根据 Google 搜索框中的查询打开 Google 地图，并显示匹配的地点。
+
+此扩展程序不会收集用户数据，有助于保护用户的隐私和安全。
+
+如需了解更多信息，请联系开发者。
 ```
