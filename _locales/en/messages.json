@@ -4,7 +4,7 @@
     "description": "Extension name shown in Chrome and the Chrome Web Store."
   },
   "extensionDescription": {
-    "message": "Adds a Google Maps shortcut to supported Google Search results.",
+    "message": "Open your Google Search query in Google Maps with a dedicated Maps tab.",
     "description": "Short extension description shown in Chrome and the Chrome Web Store."
   }
 }

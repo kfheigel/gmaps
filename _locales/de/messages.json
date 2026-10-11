@@ -4,7 +4,7 @@
     "description": "Name der Erweiterung in Chrome und im Chrome Web Store."
   },
   "extensionDescription": {
-    "message": "Fügt unterstützten Google-Suchergebnissen eine Verknüpfung zu Google Maps hinzu.",
+    "message": "Öffne deine Google-Suche mit einem eigenen Maps-Tab direkt in Google Maps.",
     "description": "Kurzbeschreibung der Erweiterung in Chrome und im Chrome Web Store."
   }
 }

@@ -4,7 +4,7 @@
     "description": "Chrome と Chrome ウェブストアに表示される拡張機能名。"
   },
   "extensionDescription": {
-    "message": "対応する Google 検索結果に Google マップへのショートカットを追加します。",
+    "message": "専用の「マップ」タブから、Google 検索の内容を Google マップで開けます。",
     "description": "Chrome と Chrome ウェブストアに表示される拡張機能の概要。"
   }
 }

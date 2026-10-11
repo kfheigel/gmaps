@@ -4,7 +4,7 @@
     "description": "Nom de l’extension affiché dans Chrome et le Chrome Web Store."
   },
   "extensionDescription": {
-    "message": "Ajoute un raccourci vers Google Maps aux résultats Google compatibles.",
+    "message": "Ouvrez votre recherche Google dans Google Maps grâce à un onglet dédié.",
     "description": "Brève description de l’extension affichée dans Chrome et le Chrome Web Store."
   }
 }

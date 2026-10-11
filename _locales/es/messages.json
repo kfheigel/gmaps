@@ -4,7 +4,7 @@
     "description": "Nombre de la extensión que se muestra en Chrome y Chrome Web Store."
   },
   "extensionDescription": {
-    "message": "Añade un acceso directo a Google Maps en los resultados compatibles de Google.",
+    "message": "Abre tu búsqueda de Google en Google Maps desde una pestaña dedicada.",
     "description": "Descripción breve de la extensión para Chrome y Chrome Web Store."
   }
 }

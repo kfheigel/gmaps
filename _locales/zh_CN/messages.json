@@ -4,7 +4,7 @@
     "description": "在 Chrome 和 Chrome 网上应用店中显示的扩展程序名称。"
   },
   "extensionDescription": {
-    "message": "在受支持的 Google 搜索结果中添加 Google 地图快捷入口。",
+    "message": "通过专用的“地图”标签，在 Google 地图中打开当前 Google 搜索内容。",
     "description": "在 Chrome 和 Chrome 网上应用店中显示的扩展程序简介。"
   }
 }

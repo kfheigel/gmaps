@@ -12,14 +12,30 @@
   const getSearchInput = () =>
     document.querySelector('textarea[name="q"], input[name="q"], textarea.gLFyf');
 
-  const getMapsLabel = () => {
-    if (languagePreference === "pl") return "Mapa";
-    if (languagePreference === "en") return "Map";
+  const mapsLabels = {
+    en: "Map",
+    pl: "Mapa",
+    de: "Karten",
+    es: "Mapas",
+    fr: "Cartes",
+    ja: "マップ",
+    zh_CN: "地图",
+  };
 
-    const language = document.documentElement.lang.toLowerCase();
-    const requestedLanguage = new URL(window.location.href).searchParams.get("hl")?.toLowerCase();
-    return language.startsWith("pl") || requestedLanguage?.startsWith("pl") ||
-      automaticLanguage === "pl" ? "Mapa" : "Map";
+  const resolveLanguage = (locale) => {
+    const normalized = String(locale || "").toLowerCase().replaceAll("_", "-");
+    if (normalized.startsWith("zh")) return "zh_CN";
+    const language = normalized.split("-")[0];
+    return Object.hasOwn(mapsLabels, language) ? language : "en";
+  };
+
+  const getMapsLabel = () => {
+    const pageLanguage = document.documentElement.lang ||
+      new URL(window.location.href).searchParams.get("hl");
+    const language = languagePreference === "auto"
+      ? resolveLanguage(automaticLanguage || pageLanguage)
+      : resolveLanguage(languagePreference);
+    return mapsLabels[language];
   };
 
   const getCurrentQuery = () => {

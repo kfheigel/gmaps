@@ -1,7 +1,7 @@
 
 # GMAPS
 
-Google Maps Redirect is a Chrome extension that adds a Maps tab between All and Images in supported Google search results. Click it to search the current phrase in Google Maps. The popup lets you choose automatic, Polish, or English labels.
+GMAPS is a Chrome extension that adds a Maps tab between All and Images in supported Google search results. Click it to open the current query in Google Maps. The popup is available in English, Polish, German, Spanish, French, Japanese, and Simplified Chinese, with automatic browser-language selection.
 
 ## Installation
 

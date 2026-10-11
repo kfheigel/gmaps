@@ -4,7 +4,7 @@
     "description": "Nazwa rozszerzenia wyświetlana w Chrome i Chrome Web Store."
   },
   "extensionDescription": {
-    "message": "Dodaje skrót do Map Google w obsługiwanych wynikach wyszukiwania Google.",
+    "message": "Otwórz wyszukiwaną frazę w Mapach Google za pomocą karty Mapy.",
     "description": "Krótki opis rozszerzenia wyświetlany w Chrome i Chrome Web Store."
   }
 }
